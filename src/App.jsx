@@ -14,6 +14,7 @@ function App() {
   }
   return (
     <>
+<<<<<<< HEAD
     <Navbar />
     {/* <div style={{display:'flex', alignItems:'flex-start', gap:'24px'}}> */}
       <div style={{flex: 1}}>
@@ -22,6 +23,13 @@ function App() {
 {/* </div> */}
             <OrderCart />
     </div>
+=======
+      <div>
+        <h1>Hello World</h1>
+        <h2>hello rabin</h2>
+        <h3>Narayan</h3>
+      </div>
+>>>>>>> d86fccf0a9507c7cc43d39c8e49949eb1150ee08
     </>
   )
 }
