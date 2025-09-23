@@ -1,0 +1,41 @@
+.order-cart {
+  flex: 1;
+  background: #f9f9f9;
+  max-width: 280px;
+  top: 100px;
+  padding: 15px;
+  border-radius: 12px;
+  height:200px;
+  width: 700px;
+  position: fixed;
+  right: 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+
+}
+
+.order-cart h2 {
+ margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #222;
+
+}
+.btn{
+border: none;
+cursor: pointer;
+font-size: 12px;
+text-align: center;
+height: 25px;
+width: 60px;
+background:#f2f2f2;
+border-radius: 8px;
+}
+
+.empty {
+   font-size: 14px;
+  color: #aaa;
+  text-align: center;
+  padding: 20px 0;
+  border: 1px dashed #ddd;
+  border-radius: 8px;
+}

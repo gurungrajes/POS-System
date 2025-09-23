@@ -1,15 +1,26 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+
+import Navbar from './Components/Navbar/Navbar';                                                                                          
+import Category from './Components/Category/Category';
+import Menu from './Components/Menu/Menu';
+import MenuData from './Components/Menu/MenuData';
+import OrderCart from './Components/OrderCart/OrderCart';
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const [menu] = useState(MenuData)
+  const handleAdd = (item) => {
+    // Add to cart logic here
+    console.log('Add:', item)
+  }
   return (
     <>
-    <div>
-      <h1>Hello World</h1>
+    <Navbar />
+    {/* <div style={{display:'flex', alignItems:'flex-start', gap:'24px'}}> */}
+      <div style={{flex: 1}}>
+       <Category />
+       <Menu menu={menu} onAdd={handleAdd} />
+{/* </div> */}
+            <OrderCart />
     </div>
     </>
   )
