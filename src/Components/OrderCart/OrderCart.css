@@ -1,13 +1,13 @@
 .order-cart {
   flex: 1;
   background: #f9f9f9;
-  max-width: 280px;
+  max-width: 400px;
   top: 100px;
   padding: 15px;
   border-radius: 12px;
   height:200px;
   width: 700px;
-  position: fixed;
+  position: absolute;
   right: 30px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 
@@ -36,6 +36,5 @@ border-radius: 8px;
   color: #aaa;
   text-align: center;
   padding: 20px 0;
-  border: 1px dashed #ddd;
   border-radius: 8px;
 }

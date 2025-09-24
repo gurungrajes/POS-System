@@ -9,8 +9,4 @@
   background: #f2f2f2;
   border-radius: 8px;
   cursor: pointer;
-  transform: background 0.2s ease;
-}
-.category-btn:hoover{
-  background: black;
 }

@@ -15,13 +15,10 @@ function App() {
   return (
     <>
     <Navbar />
-    {/* <div style={{display:'flex', alignItems:'flex-start', gap:'24px'}}> */}
-      <div style={{flex: 1}}>
        <Category />
        <Menu menu={menu} onAdd={handleAdd} />
-{/* </div> */}
-            <OrderCart />
-    </div>
+      <OrderCart />
+
     </>
   )
 }
